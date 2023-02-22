@@ -1,18 +1,37 @@
-.header {
-    display: flex;
-    flex-direction: row;
-    width: 100vw;
-
-    .img-container {
+@media screen and (min-width: 340px) {
+    .header {
         display: flex;
         flex-direction: column;
-        width: 50vw;
+        width: 100vw;
+    
+        .img-container {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .header-container {
+            h1 {
+                font-size: 3.2em;
+                line-height: 1.1;
+              }
+        }
     }
+}
 
-    .header-container {
-        h1 {
-            font-size: 3.2em;
-            line-height: 1.1;
-          }
+@media screen and (min-width: 600px) {
+    .header {
+        flex-direction: row;
+    
+        .img-container {
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+        }
+    
+
     }
+}
+
+@media screen and (min-width: 1020px) {
+    
 }
