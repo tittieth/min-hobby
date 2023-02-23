@@ -22,11 +22,11 @@
             h1 {
                 font-size: 3.2em;
                 line-height: 1.1;
-                padding: 10px;
+                padding: 1rem;
               }
 
             p {
-                padding: 10px;
+                padding: 1rem;
             }
         }
     }
@@ -34,18 +34,76 @@
 
 @media screen and (min-width: 600px) {
     .header {
-        flex-direction: row;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
     
         .img-container {
             display: flex;
             flex-direction: column;
-            width: 50vw;
+            justify-content: space-between;
+
+            .nursing-img, .flower-crown-img {
+                padding: 0.5rem;
+                margin: auto;
+                width: 500px;
+                height: 350px;
+                border-radius: 20px;
+            }
         }
     
+        .header-container {
+            h1 {
+                font-size: 3.2em;
+                line-height: 1.1;
+                padding: 1rem;
+              }
 
+            p {
+                padding: 1rem;
+            }
+        }
     }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1000px) {
+    .header {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vw;
     
+        .img-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .nursing-img, .flower-crown-img {
+                padding: 0.5rem;
+                margin: auto;
+                width: 600px;
+                height: 350px;
+                border-radius: 20px;
+            }
+        }
+    
+        .header-container {
+            width: 70%;
+
+            .header-txt {
+                padding: 2rem;
+            }
+            
+            h1 {
+                margin-top: 2rem;
+                font-size: 5.2em;
+                line-height: 1.1;
+                padding: 1rem;
+              }
+
+            p {
+                padding: 1rem;
+                margin-top: 2rem;
+            }
+        }
+    }
 }
