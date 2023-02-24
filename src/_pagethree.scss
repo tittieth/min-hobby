@@ -1,0 +1,86 @@
+.swiper {
+    width: 75%;
+    padding-top: 10.125rem;
+  }
+  
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active {
+    background: #fff;
+  }
+  
+  .swiper-pagination {
+    bottom: 1.25rem !important;
+  }
+  
+  .swiper-slide {
+    width: 18.75rem;
+    height: 28.125rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: self-start;
+  }
+  
+  .swiper-slide div {
+    display: none;
+    opacity: 0;
+    padding-bottom: 0.625rem;
+  }
+  
+  .swiper-slide-active div {
+    display: block;
+    opacity: 1;
+  }
+  
+  .swiper-slide--one {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+        no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide--two {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+        no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide--three {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+        no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide--four {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+        no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-slide--five {
+    background: linear-gradient(to top, #0f2027, #203a4300, #2c536400),
+        no-repeat 50% 50% / cover;
+  }
+  
+  .swiper-3d .swiper-slide-shadow-left,
+  .swiper-3d .swiper-slide-shadow-right {
+    background-image: none;
+  }
+
+  .border-radius {
+    border-radius: 10px;
+  }
+  
+  
+  @media screen and (min-width: 48rem) {
+    .swiper-container {
+      display: flex;
+      align-items: center;
+    }
+    .bg,
+    .bg2 {
+      opacity: 0.1;
+    }
+  }
+  
+  @media screen and (min-width: 93.75rem) {
+    .swiper {
+      width: 85%;
+    }
+  }
+  
