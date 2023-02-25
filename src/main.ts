@@ -17,16 +17,13 @@ var swiper = new Swiper(".swiper", {
     clickable: true
   },
   breakpoints: {
-    640: {
+    540: {
       slidesPerView: 1
     },
-    768: {
+    720: {
       slidesPerView: 2
     },
-    1024: {
-      slidesPerView: 3
-    },
-    1560: {
+    980: {
       slidesPerView: 3
     }
   }

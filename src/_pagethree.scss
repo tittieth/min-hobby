@@ -1,5 +1,5 @@
 .swiper {
-    width: 75%;
+    width: 90%;
     padding-top: 10.125rem;
   }
   
@@ -66,21 +66,15 @@
     border-radius: 10px;
   }
   
-  
-  @media screen and (min-width: 48rem) {
-    .swiper-container {
-      display: flex;
-      align-items: center;
-    }
-    .bg,
-    .bg2 {
-      opacity: 0.1;
-    }
-  }
-  
-  @media screen and (min-width: 93.75rem) {
+  @media screen and (min-width: 450px) {
     .swiper {
-      width: 85%;
+        width: 70%;
     }
   }
-  
+
+    
+  @media screen and (min-width: 720px) {
+    .swiper {
+        width: 95%;
+    }
+  }
