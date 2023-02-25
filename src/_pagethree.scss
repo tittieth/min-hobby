@@ -1,6 +1,6 @@
 .swiper {
     width: 90%;
-    padding-top: 10.125rem;
+    padding-top: 2.125rem;
   }
   
   .swiper-pagination-bullet,
@@ -65,11 +65,20 @@
   .border-radius {
     border-radius: 10px;
   }
+
+  .header-two {
+    padding: 2rem 0.925rem 0;
+  }
   
   @media screen and (min-width: 450px) {
     .swiper {
         width: 70%;
+        padding-top: 8rem;
     }
+
+    .header-two {
+        padding: 5.5rem 1.925rem 0;
+      }
   }
 
     
@@ -77,4 +86,8 @@
     .swiper {
         width: 95%;
     }
+
+    .header-two {
+        padding: 5.5rem 20.925rem 0 1rem;
+      }
   }
