@@ -1,5 +1,8 @@
 import { defineConfig } from "vite";
 
 export default({
-    base: ''
+    base: '/min-hobby/',
+    define: {
+        'process.env': {},
+      },
 });
